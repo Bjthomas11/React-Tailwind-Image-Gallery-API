@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Card from "./components/Card/Card";
-import Search from "./components/Card/Search/Search";
+import Search from "./components/Search/Search";
 
 const App = () => {
   const [images, setImages] = useState([]);
